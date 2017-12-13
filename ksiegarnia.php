@@ -17,14 +17,26 @@
 
 
 
-        <?php
-        include ('connect.php');
+
+    <article>
+        <div class="site">
+            <h2>Site</h2>
+            <h2>Sitewfe</h2>
+            <h2>Siefte</h2>
+            <h2>Sitsade</h2>
+            <h2>Ssaite</h2>
+            <h2>1</h2>
+
+        </div>
+        <section>
+            <?php
+            include ('connect.php');
 
             while ($row = $result->fetch_assoc())
             {
 
 
-                echo '<ol>
+                echo '<ol class="list">
                             <li>Tytul: '.$row['Tytul'].'</li><br>
                             <li>Opis: '.$row['Opis'].'</li><br>
                             <li>Autor: '.$row['Autor'].'</li><br>
@@ -35,9 +47,12 @@
 
 
             }
-        ?>
+            ?>
+
+        </section>
 
 
+    </article>
 
 
 <footer>

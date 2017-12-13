@@ -4,6 +4,10 @@ header{
     background-color: whitesmoke;
 
 }
+article{
+margin-top: 10px;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -14,7 +18,7 @@ ul {
 
 li {
     float: left;
-    list-style-type: none;
+
 }
 
 li a {
@@ -29,3 +33,31 @@ li a {
 li a:hover {
     background-color: #111;
 }
+.list{
+
+    border-style: solid;
+    list-style-type: none;
+
+
+}
+footer {
+    text-align: center;
+    clear: both;
+
+}
+.site{
+    margin-top: 16px;
+    float: left;
+    width: 220px;
+    height: 600px;
+    background-color:darkslateblue;
+    text-align: center;
+}
+section{
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-left: 300px;
+}
+
+
