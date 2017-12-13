@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Books</title>
 </head>
 <body>
@@ -16,32 +15,28 @@
     </ul>
 </nav>
 <article>
-    <table style="width: 40%;" border="1">
-        <tbody>
-        <tr>
-            <td>Tytul</td>
-            <td>Opis</td>
-            <td>Autor</td>
-            <td>Cena</td>
-        </tr>
+
+
         <?php
-        $conn = new mysqli('localhost','root','','test');
+        include ('connect.php');
 
-        $result = $conn->query("select * from book");
+            while ($row = $result->fetch_assoc())
+            {
 
-        if($result->num_rows > 0){
-            while($row = $result->fetch_assoc()){
-                echo '<tr>
-                        <td>'.$row['Tytul'].'</td>
-                        <td>'.$row['Opis'].'</td>
-                        <td>'.$row['Autor'].'</td>
-                        <td>'.$row['Cena'].'</td>
-                      </tr>';
+
+                echo '<ol style="list-style-type: none;">
+                            <li>Tytul: '.$row['Tytul'].'</li><br>
+                            <li>Opis: '.$row['Opis'].'</li><br>
+                            <li>Autor: '.$row['Autor'].'</li><br>
+                            <li>Cena: '.$row['Cena'].' zl</li><br>
+                      </ol>';
+
+
+
+
             }
-        }
         ?>
-        </tbody>
-    </table>
+
 
 </article>
 

@@ -1,10 +1,6 @@
-header{
+.header{
     text-align: center;
     color:darkblue;
-}
-article{
-    background-color:darkgray;
-    height: 400px;
 
 }
 ul {
@@ -30,4 +26,13 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+ol{
+    list-style-type: none;
+}
+
+#kolo{
+    width: 200px;
+    height: 100px;
+    background-color: darkblue;
 }
