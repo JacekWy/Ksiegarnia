@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Books</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <header>
@@ -14,7 +14,7 @@
         <li><a href="AddBook.html">Usun Ksiazke</a></li>
     </ul>
 </nav>
-<article>
+
 
 
         <?php
@@ -24,7 +24,7 @@
             {
 
 
-                echo '<ol style="list-style-type: none;">
+                echo '<ol>
                             <li>Tytul: '.$row['Tytul'].'</li><br>
                             <li>Opis: '.$row['Opis'].'</li><br>
                             <li>Autor: '.$row['Autor'].'</li><br>
@@ -38,7 +38,7 @@
         ?>
 
 
-</article>
+
 
 <footer>
     <h4>Najlepsza czytelnia</h4>
