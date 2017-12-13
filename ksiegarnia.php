@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Books</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="site.css">
 </head>
 <body>
 <header>
@@ -10,8 +10,8 @@
 </header>
 <nav>
     <ul>
-        <li><a href="AddBook.html">Dodaj Ksiazke</a></li>
-        <li><a href="AddBook.html">Usun Ksiazke</a></li>
+        <li><a href="DodanieKsiazki.html">Dodaj Ksiazke</a></li>
+        <li><a href="hh">Usun Ksiazke</a></li>
     </ul>
 </nav>
 
