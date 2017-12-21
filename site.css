@@ -1,63 +1,40 @@
 header{
     text-align: center;
-    color:darkblue;
-    background-color: whitesmoke;
-
+    color:black;
+    font-family: "Myanmar Text";
+    height: 100px;
+    padding: 20px;
+   background-color: antiquewhite;
 }
-article{
-margin-top: 10px;
-
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
+nav{
+    background-color: darkgray;
+    height: 250px;
+    width: 150px;
+    margin-right: 20px;
     float: left;
 
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-li a:hover {
-    background-color: #111;
-}
-.list{
-
-    border-style: solid;
-    list-style-type: none;
-
-
-}
-footer {
-    text-align: center;
-    clear: both;
-
-}
-.site{
-    margin-top: 16px;
-    float: left;
-    width: 220px;
-    height: 600px;
-    background-color:darkslateblue;
-    text-align: center;
-}
 section{
+    background-color: honeydew;
+    width: 1163px;
     float: left;
-    width: 500px;
-    height: auto;
-    margin-left: 300px;
+    margin-bottom: 20px;
+
 }
+#kontener{
+    margin-top: 20px;
+
+}
+
+
+
+footer{
+    clear: both;
+    background-color: black;
+    height: 100px;
+
+}
+
 
 
