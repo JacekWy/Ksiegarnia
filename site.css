@@ -4,7 +4,7 @@ header{
     font-family: "Myanmar Text";
     height: 100px;
     padding: 20px;
-   background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 nav{
     background-color: darkgray;
@@ -13,20 +13,8 @@ nav{
     margin-right: 20px;
     float: left;
 
-}
-
-section{
-    background-color: honeydew;
-    width: 1163px;
-    float: left;
-    margin-bottom: 20px;
 
 }
-#kontener{
-    margin-top: 20px;
-
-}
-
 
 
 footer{
@@ -35,6 +23,11 @@ footer{
     height: 100px;
 
 }
+.bookconteiner{
+    background-color: silver;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    float: left;
 
-
-
+}
