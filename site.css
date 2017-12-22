@@ -12,19 +12,16 @@ nav{
     width: 150px;
     margin-right: 10px;
     float: left;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Bernard MT Condensed";
+    font-size: 20px;
 
 }
 a{
     text-decoration: none;
     color: black;
 }
-ul li{
-    list-style-type: none;
-    margin-top: 20px;
-
-}
-
-
 
 footer{
     clear: both;

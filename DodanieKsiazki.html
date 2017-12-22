@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Dodawanie Ksiazki</title>
 </head>
 <body>
-<p>Dodawanie</p>
+<p>Dodawanie ksiazki</p>
+<form action="dodawanie.php" method="post">
+    Tytul: <input type="text" name="Tytul" required><br><br>
+    Opis: <textarea name="Opis" placeholder="Opis........" cols="30" rows="10" maxlength="255" required></textarea><br><br>
+    Autor: <input type="text" name="Autor" required><br><br>
+    Cena: <input type="text" name="Cena" required><br><br>
+
+    <input type="submit" name="submit" value="Dodaj">
+
+
+</form>
+
 </body>
 </html>

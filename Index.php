@@ -9,16 +9,14 @@
     <header>
         <h1>Ksiegarnia Koniecpol</h1>
     </header>
-    <div id="kontener">
         <nav>
-            <ul>
-                <li><a href="DodanieKsiazki.html">Dodaj Ksiazke</a></li>
-            </ul>
+                <a href="DodanieKsiazki.html">Dodaj Ksiazke</a>
         </nav>
 
         <section>
             <?php
-            include ('connect.php');
+            require_once ('connect.php');
+            $result = $conn->query("select * from book");
             while ($row = $result->fetch_assoc())
             {
                 echo '<div class="bookconteiner">
@@ -33,9 +31,6 @@
             ?>
 
         </section>
-
-
-    </div>
 
     <footer>
 
