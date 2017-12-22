@@ -10,11 +10,20 @@ nav{
     background-color: darkgray;
     height: 250px;
     width: 150px;
-    margin-right: 20px;
+    margin-right: 10px;
     float: left;
 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style-type: none;
+    margin-top: 20px;
 
 }
+
 
 
 footer{

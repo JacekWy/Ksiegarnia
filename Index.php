@@ -13,7 +13,6 @@
         <nav>
             <ul>
                 <li><a href="DodanieKsiazki.html">Dodaj Ksiazke</a></li>
-                <li><a href="hh">Usun Ksiazke</a></li>
             </ul>
         </nav>
 
