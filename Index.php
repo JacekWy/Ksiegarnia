@@ -20,12 +20,17 @@
             while ($row = $result->fetch_assoc())
             {
                 echo '<div class="bookconteiner">
-                
-                           Tytul: '.$row['Tytul'].'<br>
-                            Opis: '.$row['Opis'].'<br>
-                           Autor: '.$row['Autor'].'<br>
-                            Cena: '.$row['Cena'].' zl<br>
-                   
+                           <div id="obraz">                        
+                           <img src="'.$row['Okladka'].'.jpg" height="200" width="200">
+                            </div>
+                           Tytul: '.$row['Tytul'].'<br><br>
+                            Opis: '.$row['Opis'].'
+                           
+                            
+                   <div id="cena">
+                   Autor: '.$row['Autor'].'<br>
+                   Cena: '.$row['Cena'].' zl
+                    </div>
                    </div>';
             }
             ?>
