@@ -4,7 +4,7 @@ header{
     font-family: "Myanmar Text";
     height: 100px;
     padding: 20px;
-    background-color: antiquewhite;
+    background-image: url("header.png");
 }
 nav{
     background-color: darkgray;
@@ -25,13 +25,14 @@ a{
 section{
     float: left;
     width: 900px;
-    background-color: yellowgreen;
+    margin-bottom: 30px;
 }
 
 footer{
     clear: both;
-    background-color: black;
+    text-align: center;
     height: 100px;
+    background-color: yellowgreen;
 
 }
 .bookconteiner{
@@ -55,4 +56,9 @@ footer{
     width: 200px;
 
 }
-
+#conteiner{
+    background-image: url("back.jpg");
+}
+#sort{
+    color: antiquewhite;
+}

@@ -11,6 +11,9 @@
     </header>
         <nav>
                 <a href="DodanieKsiazki.html">Dodaj Ksiazke</a>
+            <h5>Bazy Danych</h5>
+            <h5>Ebooki</h5>
+            <h5>Programowanie</h5>
         </nav>
 
         <section>
@@ -52,6 +55,7 @@
         </section>
 
     <footer>
+        <h3>Wszelkie prawa zastrezone 2018r.</h3>
 
     </footer>
 
