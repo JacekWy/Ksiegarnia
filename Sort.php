@@ -8,7 +8,7 @@ function normalsort(){
     {
         echo '<div class="bookconteiner">
                            <div id="obraz">                        
-                           <img src="'.$row['Okladka'].'.jpg" height="200" width="200">
+                           <img src="picture/'.$row['Okladka'].'.jpg" height="200" width="200">
                             </div>
                            Tytul: '.$row['Tytul'].'<br><br>
                             Opis: '.$row['Opis'].'
@@ -31,7 +31,7 @@ function sorttytul(){
     {
         echo '<div class="bookconteiner">
                            <div id="obraz">                        
-                           <img src="'.$row['Okladka'].'.jpg" height="200" width="200">
+                           <img src="picture/'.$row['Okladka'].'.jpg" height="200" width="200">
                             </div>
                            Tytul: '.$row['Tytul'].'<br><br>
                             Opis: '.$row['Opis'].'
@@ -53,7 +53,7 @@ function sortcena(){
     {
         echo '<div class="bookconteiner">
                            <div id="obraz">                        
-                           <img src="'.$row['Okladka'].'.jpg" height="200" width="200">
+                           <img src="picture/'.$row['Okladka'].'.jpg" height="200" width="200">
                             </div>
                            Tytul: '.$row['Tytul'].'<br><br>
                             Opis: '.$row['Opis'].'
