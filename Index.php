@@ -14,25 +14,39 @@
         </nav>
 
         <section>
+            <div id="sort">
+                Sortuj
+                <form action="Index.php" method="post">
+                    <select name="wybor">
+                        <option name="Tytul">Tytul</option>
+                        <option name="Cena">Cena</option>
+                    </select>
+                    <input type="submit" name="sort" value="Sortuj">
+
+                </form>
+
+
+            </div>
             <?php
-            require_once ('connect.php');
-            $result = $conn->query("select * from book");
-            while ($row = $result->fetch_assoc())
-            {
-                echo '<div class="bookconteiner">
-                           <div id="obraz">                        
-                           <img src="'.$row['Okladka'].'.jpg" height="200" width="200">
-                            </div>
-                           Tytul: '.$row['Tytul'].'<br><br>
-                            Opis: '.$row['Opis'].'
-                           
-                            
-                   <div id="cena">
-                   Autor: '.$row['Autor'].'<br>
-                   Cena: '.$row['Cena'].' zl
-                    </div>
-                   </div>';
+            require_once ('Sort.php');
+
+            if(isset($_POST['wybor'])){
+                $w = $_POST['wybor'];
+
+                switch ($w){
+                    case 'Tytul':
+                        sorttytul();
+                        break;
+                    case  'Cena':
+                        sortcena();
+                        break;
+                }
+
+            }else{
+            normalsort();
             }
+
+
             ?>
 
         </section>
